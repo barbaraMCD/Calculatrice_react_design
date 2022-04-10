@@ -1,0 +1,27 @@
+.clear {
+    height: 4em;
+    width: 22em;
+    margin-top: 2em;
+}
+
+.clear>button {
+    height: 4em;
+    width: 26.5em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.4em;
+    margin-top: 1.2em;
+    font-weight: bolder;
+    text-shadow: white 1px 0 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2em;
+    text-decoration: overline var(--couleur-claire);
+}
+
+.clear>button:hover {
+    transform:scale(0.9)
+}

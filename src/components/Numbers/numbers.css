@@ -1,0 +1,15 @@
+.numbers {
+    width: 6em;
+    height: 7em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.4em;
+    font-weight: bolder;
+    text-shadow: var(--couleur-claire) 1px 0 10px;
+}
+
+.numbers:hover {
+    transform: scale(0.9);
+}

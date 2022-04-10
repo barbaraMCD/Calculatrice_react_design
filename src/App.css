@@ -1,0 +1,49 @@
+:root {
+--couleur-claire: rgb(152, 236, 255);
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(2, 2, 55);
+    font-weight: bolder;
+}
+
+.calculatrice { 
+    width: 27em;
+    height: 42em;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    height: 0.01em;
+    width: 90%;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.2em;
+    Margin-top: 1em;
+}
+
+.all-button {
+    display: flex;
+    flex-direction: row;
+    height: 25em;
+    width: 22em;
+    margin-top: 1em;
+}
+.button-number {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    width: 18em;
+    margin-top: 1em;
+    gap: 1em
+}

@@ -1,0 +1,20 @@
+.calculs {
+    display: flex;
+    flex-direction: column;
+}
+.calculs>button {
+    width: 4.1em;
+    height: 5em;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.4em;
+    margin-top: 1.2em;
+    font-weight: bolder;
+    text-shadow: var(--couleur-claire) 1px 0 10px;
+}
+
+.calculs>button:hover {
+    transform: scale(0.9);
+}

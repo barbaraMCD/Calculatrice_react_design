@@ -1,0 +1,17 @@
+.result {
+    width: 20em;
+    height: 6em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 1px 1px 5px 3px var(--couleur-claire);
+    border-radius: 0.4em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    text-shadow: var(--couleur-claire) 1px 0 10px;
+}
+
+.result>* {
+    padding-right: 2em;
+}
